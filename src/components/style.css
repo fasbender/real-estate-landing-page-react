@@ -332,6 +332,9 @@ input[type="text"]{
 .footer-grid-1{
     padding: 0 2rem 2rem 2rem;
 }
+.footer-grid-1 div img{
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 1024px) {
     .nav{
@@ -505,6 +508,9 @@ input[type="text"]{
     }
     .footer-grid-2 div{
         padding: 5px;
+    }
+    .footer-grid-1{
+        padding: 0 2rem 2rem 0;
     }
 }
 @media screen and (max-width: 280px) {
