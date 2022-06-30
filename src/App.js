@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Achievements from './components/Achievements';
 import Residence from './components/Residence';
 import Services from './components/Services';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Achievements/>
       <Residence/>
       <Services/>
+      <Footer/>
     </div>
   );
 }
