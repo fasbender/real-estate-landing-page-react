@@ -295,6 +295,51 @@ input[type="text"]{
 }
 /* ------------------------- end of services ----------------------------- */
 
+.testimonial div{
+    text-align: center;
+}
+.testimonial-top{
+    color: var(--color-2);
+    margin-bottom: 30px;
+}
+.testimonial-top h1{
+    font-family: var(--banner-fonts);
+}
+.testimonial-top p{
+    font-family: var(--nav-fonts);
+    font-weight: bold;
+}
+.testimonial{
+    padding: 50px 2rem;
+    background: var(--footer-background);
+    overflow: hidden;
+}
+.testimonial div h1, .testimonial div p{
+    margin-bottom: 20px;
+}
+.carousel{
+    display: grid;
+    grid-template-columns: repeat(10, 400px);
+    gap: 50px;
+    width: 100%;
+}
+.testimonial-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.testimonial-card{
+    padding: 2rem;
+    background: var(--color-2);
+    border-radius: 10px;
+}
+.testimonial-card div{
+    text-align: justify;
+    font-family: var(--nav-fonts);
+    font-weight: bold;
+}
+/* ------------------------- end of testimonial ----------------------------- */
+
 .footer{
     background: var(--footer-background);
     display: grid;
@@ -505,7 +550,8 @@ input[type="text"]{
     .service-grid{
         grid-template-columns: repeat(1, 1fr);
     }
-/* ------------------------- end of services ----------------------------- */    
+/* ------------------------- end of services ----------------------------- */
+
 
     .footer{
         grid-template-columns: 1fr;

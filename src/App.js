@@ -4,6 +4,7 @@ import Achievements from './components/Achievements';
 import Residence from './components/Residence';
 import Services from './components/Services';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Achievements/>
       <Residence/>
       <Services/>
+      <Testimonials/>
       <Footer/>
     </div>
   );
