@@ -19,7 +19,7 @@ const Testimonials = () => {
             <h1>What clients says</h1>
             <p>Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
         </div>
-        <motion.div ref={carousel} drag="x" dragConstraints={{right: 0, left: -width}} className='carousel'>
+        <motion.div ref={carousel} drag="x" dragConstraints={{right: 0, left: -width}} whileTap={{cursor: "grabbing"}} className='carousel'>
             <TestimonialCard testimonialList={testimonialList}/>
         </motion.div>
     </div>
