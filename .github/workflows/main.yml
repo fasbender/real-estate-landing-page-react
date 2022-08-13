@@ -25,4 +25,4 @@ jobs:
         server: 193.168.192.154
         username: ftp.faisalbinalamgir.dev
         password: Faisal2022!
-        local-dir: ./dist/
+        local-dir: ./build/
