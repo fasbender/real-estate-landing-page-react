@@ -23,6 +23,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: 193.168.192.154
-        username: ftp.faisalbinalamgir.dev
+        username: u877982310.realfasbender
         password: Faisal2022!
         local-dir: ./build/
